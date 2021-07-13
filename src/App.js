@@ -15,7 +15,7 @@ const App=()=>{
                     </div>
                     <div className="service-white service-text">
                         <p>Prathamesh Yadav</p>
-                        <Button buttonText="Connect"/>
+                        <Button btnLink="https://www.instagram.com/creator_ehsaas/" buttonText="Connect"/>
                     </div>
                 </div>
             </div>

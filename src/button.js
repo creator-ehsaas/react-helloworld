@@ -1,8 +1,8 @@
 import React from "react"
 
-const Button=({buttonText})=>{
+const Button=({buttonText}, {btnLink})=>{
     return(
-        <a href="https://www.instagram.com/creator_ehsaas/"><button className="btn hover">{buttonText}</button></a>
+        <a href={btnLink}><button className="btn hover">{buttonText}</button></a>
     )
 }
 
